@@ -25,6 +25,9 @@ Class mediaClass;
 %property (nonatomic, assign) BOOL hasKai;
 
 - (void)_layoutStackView { //this is completely fucking shit and I know it
+			   //old code im too lazy to fix, if someone else
+			   //wants to, pls fix for me because this is 
+			   //disgusting
 	%orig;
 
 	BOOL found = NO;
